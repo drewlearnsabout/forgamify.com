@@ -1,0 +1,503 @@
+/*  
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Share Tech', sans-serif;
+font-family: 'Expletus Sans', cursive;
+font-family: 'Gayathri', sans-serif;
+font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Gugi', cursive;
+font-family: 'Metal Mania', cursive;
+font-family: 'Michroma', sans-serif;
+*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0 auto;
+}
+.greenLine {
+    width:100%;
+    height: 1vh;
+    background: #39E991;
+}
+header {
+    background: #0d0d0d;
+}
+header video {
+    width: 100%;
+    height: 88vh;
+}
+nav {
+    display: grid;
+    height: 15vh;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    column-gap: 3vw;
+    padding: 15px 0;
+}
+nav, #alinks {
+    font-family: 'Share Tech', sans-serif;
+    background: #0d0d0d;
+    font-size: 2.5vw;
+    color: white;
+}
+#alinks {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 3vw;
+}
+#alinks a {
+    transition-duration: 0.3s;
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+#homeButton {
+    display: grid;
+    grid-template-rows: 4.7vh 1vh;
+    justify-items: center;
+    align-self: stretch;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    color: white;
+}
+#homeButton img {
+    width: 6vw;
+}
+#homeButton:hover, #alinks a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: #39E991;
+}
+#ourGames {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 15vh;
+}
+.ourGames {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw;
+}
+#ourGames h2 {
+    text-align: center;
+    padding: 10vh;
+}
+#alienLogo {
+    transform: translate(-1vw, -6vh) rotate(15deg);
+}
+.gameCards {
+    width: 23vw;
+    height: 219px;
+    background: #232323;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.514);
+    border-radius: 0.1em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#gameGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10vh 3vw;
+}
+.cardBackground {
+    background: #EFEFEF;
+    display: grid;
+    justify-items: center;
+    padding: 3vh 1vw;
+}
+.cardBackground img {
+    width: 19vw;
+}
+.textBox {
+    font-size: 1vw;
+    position: absolute;
+    width: 18.5%;
+    height: 12%;
+    text-align: center;
+    padding: 10vh 2vw 0vh 2vw;
+    color: white;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transform: translate(-3%, -15%);
+}
+.textBox:hover {
+    opacity: 1;
+    background: rgba(12, 12, 12, 0.589);
+}
+.cardBottom {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    text-decoration-color: white;
+    color: #FFFFFF;
+}
+.cardBottom:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    text-decoration: underline;
+    text-decoration-color: #39E991;
+}
+.cardBottomMiddle p {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+#homeInfoSection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.infoSectionBox {
+    width: 100%;
+    padding: 20vh 0;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 50% 50%;
+}
+.infoSectionBox h3 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.infoSectionBox p {
+    grid-area: 2 / 2 / 3 / 3;
+}
+#infoBoxOne {
+    background: url("images/Testplay\ PNG.png");
+    color: white;
+}
+#infoBoxTwo {
+    background-image: url("Images/Castle\ PNG.png");
+}
+#contactSection {
+    font-family: 'Josefin Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: 10% 40% 40% 10%;
+    row-gap: 6vh;
+    column-gap: 4vw;
+    padding-bottom: 15vh;
+}
+#contactOne {
+    grid-area: 2 / 2 / 3 / 3;
+}
+#contactTwo {
+    grid-area: 3 / 2 / 4 / 3;
+}
+#contactThree {
+    grid-area: 2 / 3 / 4 / 4;    
+}
+#contactSection article {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 5vh 5vh;
+}
+#contactSection article a {
+    grid-area: 1 / 1 / 3 / 2;
+    transform: translateY(1.5vh);
+    transition-duration: 0.3s;
+}
+#contactSection article a:hover {
+    transform: scale(1.1) translateX(0.2vw);
+}
+#contactSection article h4 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+#contactSection article p {
+    grid-area: 2 / 2 / 3 / 3;
+    width: 50%;
+}
+#contactTwo p, #contactTwo h4 {
+    transform: translateX(1vw);
+}
+footer {
+    display: grid;
+    background: #0d0d0d;
+    grid-template-columns: 20% 40% 40%;
+}
+footer article {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 3vw;
+    grid-column: 3 / 4;
+    align-content: center;
+    transform: translateX(-10px);
+}
+footer img {
+    width: 14vw;
+    transform: translateX(2vw);
+    padding-top: 3vh;
+}
+footer a {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    transition-duration: 0.3s;
+}
+footer a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    text-decoration-color: #39E991;
+}
+/* For Games Page */
+#gameList {
+    display: grid;
+    grid-template-columns: 35% 5% 60%;
+}
+#gameList h2 {
+    justify-self: end;
+    align-self: center;
+    grid-column: 1 / 2;
+}
+#gameList article {
+    display: grid;
+    justify-content: center;
+    grid-column: 3 / 4;
+    grid-template-columns: repeat(4, 12%);
+    column-gap: 0vw;
+}
+.image_on {
+    width: 7vw;
+    transition-duration: 0.3s;
+}
+.image_off {
+    width: 8vw;
+    transform: translateY(6vh) scale(1.3);
+    box-shadow: 0 4px 15px rgb(94, 94, 94);
+    transition-duration: 0.3s;
+}
+.image_off, .gameSelect:hover .image_on{
+    display: none;
+    animation-duration: 0.3s;
+    animation-name: fadeOut;
+ }
+ .image_on, .gameSelect:hover .image_off{
+    display: initial;
+    animation-duration: 0.3s;
+    animation-name: fadeIn;
+ }
+ #gameHomeDesctription {
+    display:grid;
+    grid-template-columns: 26% 48% 26%;
+    justify-content: center;
+    text-align: center;
+    padding: 15vh 0;
+    background: #0d0d0d;
+ }
+ #gameHomeDesctription h2 {
+    font-size: 2.5vw;
+ }
+ #gameHomeDesctription p {
+     font-size: 1.3vw;
+ }
+ #gameHomeDesctription h2,  #gameHomeDesctription p {
+    grid-column: 2 / 3;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+ }
+ .gameSections {
+    height: 100vh;
+    width: 100%;
+ }
+ #sociopiaGame {
+    background-image: url("Images/Sspia-BannerBackground.svg");
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ #sociopiaGame h1,  #sociopiaGame h2, #sociopiaGame h4, #sociopiaGame h5 {
+    font-family: 'Metal Mania', cursive;
+    color: rgb(248, 219, 55);
+    text-shadow: 2px 2px 2px rgb(32, 32, 32);
+ }
+ #sociopiaGame li, #sociopiaGame p {
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #FFFFFF;
+ }
+ #sociopiaGame h1 {
+    font-size: 7vw;
+ }
+ #sociopiaGame h2 {
+    font-size: 3vw;
+ }
+ #sociopiaGame h4 {
+    font-size: 2.5vw;
+ }
+ #sociopiaGame h5 {
+     font-size: 1.25vw;
+ }
+ #sociopiaGridOne {
+    display: grid;
+    grid-template-rows: 0 27% 10%;
+    text-align: center;
+ }
+ #sociopiaGridOne ul {
+     text-align: left;
+     padding: 0 10vw;
+ }
+ #sociopiaGridOne li {
+     padding: 3vh 0;
+     font-size: 1.5vw;
+ }
+ #sociopiaGridTwo {
+    display: grid;
+    grid-template-rows: 15% 35% 30%;
+ }
+ #sociopiaGridTwo p {
+     padding-right: 15vw;
+     font-size: 1.5vw;
+ }
+ #communityQuestGame {
+    background-image: url("Images/CQ-BannerBackground.svg");
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#cqOne { 
+    grid-area: 1 / 1 / 2 / 3;
+    display: grid;
+    grid-template-rows: 20px auto;
+    text-align: end;
+    transform: translateX(-10vw);
+}
+#cqTwo {
+    grid-area: 2 / 1 / 3 / 2;
+    display: grid;
+    align-self: end;
+    transform: translateY(-8vh);
+}
+#cqThree {
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    align-self: start;
+    transform: translateY(-8vh);
+}
+#communityQuestGame h1, #communityQuestGame h2, #communityQuestGame h5 {
+    font-family: 'Expletus Sans', cursive;
+    color: rgb(255, 208, 0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.548);
+}
+#cqThree h2, #cqThree h5 {
+    font-family: 'Gayathri', sans-serif;
+    color: rgb(255, 255, 255);
+}
+#communityQuestGame h1 { 
+    font-size: 6vw;
+}
+#communityQuestGame h2 {
+    font-size: 3.5vw;
+}
+#communityQuestGame p {
+    font-size: 1.5vw;
+    font-family: 'Gayathri', sans-serif;
+    color: white;
+    padding: 0 12vw;
+}
+#cqThree h2 {
+    transform: translateY(4vh);
+    font-size: 2.4vw;
+}
+#healthHuntGame {
+    background-image: url("Images/HH-BannerBackground.svg");
+    font-family: 'Gugi', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 70%;
+    text-shadow: 0px 2px 7px rgb(129, 129, 129);
+}
+#hhGridOne {
+    grid-area: 2 / 1 / 3 / 2;
+    font-size: 1.7vw;
+    padding: 0 7vw;
+    display: grid;
+    row-gap: 3vh;
+}
+#hhGridOne ul {
+    font-size: 1.5vw;
+}
+#hhGridTwo {
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self: center;
+}
+#hhGridTwo h1 {
+    font-size: 5.5vw;
+    color: rgb(54, 238, 9);
+}
+#makingTheRoundsGame {
+    background-image: url("Images/MTR-BannerBackground.svg");
+    font-family: 'Michroma', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2% 25% 5% 68%;
+}
+#makingTheRoundsGame h1 {
+    grid-area: 2 / 1 / 3 / 5;
+    color: rgb(216, 216, 216);
+    justify-self: center;
+    font-size: 6vw;
+    text-shadow: 0 2px 7px rgb(63, 63, 63);
+}
+#mtrGridOne {
+    grid-area: 4 / 1 / 5 / 2;
+    justify-self: center;
+}
+#mtrGridOne ul, #mtrGridTwo p {
+    background: rgba(0, 0, 0, 0.404);
+    font-size: 1.1vw;
+    color: white;
+    border-radius: 1em;
+}
+#mtrGridOne ul {
+    margin: 0 9vw;
+    padding: 6.5vh 2vw;
+    transform: translateX(3em);
+}
+#mtrGridTwo p {
+    margin: 0 17vw 0 0;
+    padding: 4.5vh 2vw;
+}
+#mtrGridTwo {
+    grid-area: 4 / 2 / 5 / 3;
+}
+#mtrGridTwo div {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 7px rgb(63, 63, 63);
+}
+#keycode, #submit {
+    font-family: 'Josefin Sans', sans-serif;
+    align-self: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    transition-duration: 0.1s;
+}
+#submit:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+}
+#keycode {
+    box-shadow: 2px 2px 7px rgb(105, 105, 105) inset;
+}
+#submit {
+    color: white;
+    padding: 10px 30px;
+    background: linear-gradient(180deg, rgba(62,209,94,1) 0%, rgba(55,55,55,1) 100%);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
