@@ -495,11 +495,11 @@ footer a:hover {
 #downloadMAC {
     grid-area: 2 / 2 / 3 / 3;
 }
-.submit {
+.submit, #submitTwo {
     color: white;
     padding: 10px 30px;
     text-decoration: none;
-    border: 1px solid rgb(90, 90, 90);
+    border: 1px solid rgb(26, 26, 26);
     box-shadow: 0 7px 7px rgb(95, 95, 95);
     background: linear-gradient(180deg, rgba(62,209,94,1) 0%, rgba(55,55,55,1) 100%);
 }
@@ -522,13 +522,60 @@ footer a:hover {
     grid-column: 2 / 3;
     font-size: 1.3rem;
 }
+#contactUs, #myContact {
+    font-family: 'Montserrat', sans-serif;
+}
+#contactUs {
+    text-align: center;
+    padding: 5.8vh 0;
+    font-size: 1.5vw;
+}
 #myContact {
     display: grid;
+    background: black;
     justify-content: center;
 }
-#contactform {
+#contactForm {
     display: grid;
     justify-self: center;
+    row-gap: 3vh;
+    padding: 10vh 0;
+    color: white;
+}
+#contactForm article {
+    display:grid;
+    row-gap: 3vh;
+}
+#contactSectionOne {
+    text-align: center;
+}
+#contactSectionOne select, textarea {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+textarea {
+    padding: 1vh 0 0 1vh;
+}
+#contactSectionOne select {
+    padding: 2vh 2vw 2vh 1vw;
+    font-weight: bold;
+}
+.twoItems {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.twoItems label {
+    font-size: 1.5vw;
+    justify-self: center;
+    align-self: center;
+}
+.twoItems input {
+    border-radius: 5px;
+    padding: 2vh 1vw;
+}
+#submitTwo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 
