@@ -161,9 +161,11 @@ nav, #alinks {
 }
 .infoSectionBox h3 {
     grid-area: 1 / 2 / 2 / 3;
+    font-size: 2.8vw;
 }
 .infoSectionBox p {
     grid-area: 2 / 2 / 3 / 3;
+    font-size: 1.7vw;
 }
 #infoBoxOne {
     background: url("images/Testplay\ PNG.png");
