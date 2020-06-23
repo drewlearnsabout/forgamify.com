@@ -306,6 +306,8 @@ footer a:hover {
  }
  #sociopiaGame {
     background-image: url("Images/Sspia-BannerBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
  }
@@ -353,6 +355,8 @@ footer a:hover {
  }
  #communityQuestGame {
     background-image: url("Images/CQ-BannerBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -403,6 +407,8 @@ footer a:hover {
 }
 #healthHuntGame {
     background-image: url("Images/HH-BannerBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Gugi', cursive;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -429,6 +435,8 @@ footer a:hover {
 }
 #makingTheRoundsGame {
     background-image: url("Images/MTR-BannerBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Michroma', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
