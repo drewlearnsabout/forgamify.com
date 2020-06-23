@@ -607,3 +607,30 @@ textarea {
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 750px) {
+    header video {
+        width: 100%;
+        height: 35vh;
+    }
+    nav {
+        padding: 0;
+    }
+    nav, #alinks {
+        font-size: 5.5vw;
+    }
+    #homeButton img {
+        width: 15vw;
+    }
+    .ourGames {
+        font-size: 6vw;
+    }
+    #ourGames h2 {
+        text-align: center;
+        padding: 8vh;
+    }
+    #alienLogo {
+        transform: translate(-1vw, -8vh) rotate(15deg);
+        width: 10vw;
+    }
+}
