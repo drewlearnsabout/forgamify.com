@@ -627,10 +627,107 @@ textarea {
     }
     #ourGames h2 {
         text-align: center;
-        padding: 8vh;
+        padding: 8vh 0;
     }
     #alienLogo {
-        transform: translate(-1vw, -8vh) rotate(15deg);
+        transform: translate(0vw, -2vh) rotate(15deg);
         width: 10vw;
+    }
+    .gameCards {
+        width: 70vw;
+        height: 25vh;
+        grid-column: 1 / 2;
+    }
+    #gameGrid {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 100%;
+    }
+    .cardBackground img {
+        width: 60vw;
+    }
+    .textBox {
+        font-size: 5vw;
+        width: 65vw;
+        height: 6%;
+        text-align: center;
+        padding: 2vh 1vw 6vh 0;
+        transform: translate(0%, -15%);
+    }
+    .cardBottom {
+        justify-content: center;
+        align-content: center;
+    }
+    .cardBottomMiddle p {
+        font-size: 5vw;
+    }
+    #homeInfoSection {
+        grid-template-columns: 1fr;
+    }
+    .infoSectionBox {
+        padding: 12vh 0;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 50% 50%;
+    }
+    .infoSectionBox h3 {
+        font-size: 8vw;
+        text-align: center;
+    }
+    .infoSectionBox p {
+        font-size: 4vw;
+        text-align: center;
+    }
+    #contactSection {
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 10% 30% 30% 30% 10%;
+        row-gap: 6vh;
+        column-gap: 0;
+        padding-bottom: 30vh;
+    }
+    #contactOne {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    #contactTwo {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    #contactThree {
+        grid-area: 4 / 2 / 5 / 3;
+    }
+    #contactSection article h4 {
+        grid-area: 1 / 2 / 2 / 3;
+        justify-self: center;
+        text-align: center;
+    }
+    #contactSection article p {
+        grid-area: 2 / 2 / 3 / 3;
+        width: 90%;
+        justify-self: center;
+        text-align: center;
+    }
+    #contactOne p, #contactTwo p {
+        font-size: 0.8em;
+    } 
+    #contactThree img {
+        width: 60vw;
+        justify-self: center;
+    }
+    footer {
+        grid-template-columns: 50% 50%;
+    }
+    footer article {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1vh;
+        grid-column: 2 / 3;
+        align-content: center;
+        justify-items: center;
+        transform: translateX(-10px);
+    }
+    footer article a {
+        font-size: 0.6em;
+    }
+    footer img {
+        width: 30vw;
+        transform: translateX(5vw);
+        padding: 2.5vh 0;
     }
 }
