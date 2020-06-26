@@ -617,13 +617,16 @@ textarea {
         padding: 0;
     }
     nav, #alinks {
-        font-size: 5.5vw;
+        font-size: 5vw;
     }
     #homeButton img {
         width: 15vw;
     }
     .ourGames {
         font-size: 6vw;
+    }
+    #ourGames {
+        justify-items: start;
     }
     #ourGames h2 {
         text-align: center;
@@ -635,18 +638,18 @@ textarea {
     }
     .gameCards {
         width: 70vw;
-        height: 25vh;
-        grid-column: 1 / 2;
+        height: 30vh;
     }
     #gameGrid {
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-columns: 100%;
+        gap: 10vh 0;
     }
     .cardBackground img {
         width: 60vw;
     }
     .textBox {
-        font-size: 5vw;
+        font-size: 4.5vw;
         width: 65vw;
         height: 6%;
         text-align: center;
@@ -669,16 +672,19 @@ textarea {
         grid-template-rows: 50% 50%;
     }
     .infoSectionBox h3 {
-        font-size: 8vw;
+        font-size: 7vw;
         text-align: center;
     }
     .infoSectionBox p {
         font-size: 4vw;
         text-align: center;
     }
+    #infoBoxOne, #infoBoxTwo {
+        width: 100%;
+    }
     #contactSection {
         grid-template-columns: 10% 80% 10%;
-        grid-template-rows: 10% 30% 30% 30% 10%;
+        grid-template-rows: 5% 30% 30% 30% 5%;
         row-gap: 6vh;
         column-gap: 0;
         padding-bottom: 30vh;
@@ -699,7 +705,7 @@ textarea {
     }
     #contactSection article p {
         grid-area: 2 / 2 / 3 / 3;
-        width: 90%;
+        width: 50%;
         justify-self: center;
         text-align: center;
     }
@@ -711,21 +717,21 @@ textarea {
         justify-self: center;
     }
     footer {
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 40% 25% 35%;
     }
     footer article {
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 1vh;
-        grid-column: 2 / 3;
+        grid-column: 3 / 4;
         align-content: center;
-        justify-items: center;
-        transform: translateX(-10px);
+        justify-items: start;
     }
     footer article a {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     footer img {
+        grid-column: 1 / 2;
         width: 30vw;
         transform: translateX(5vw);
         padding: 2.5vh 0;
