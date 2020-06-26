@@ -668,16 +668,14 @@ textarea {
     }
     .infoSectionBox {
         padding: 12vh 0;
-        grid-template-columns: 10% 80% 10%;
+        grid-template-columns: 12.5% 75% 12.5%;
         grid-template-rows: 50% 50%;
     }
     .infoSectionBox h3 {
         font-size: 7vw;
-        text-align: center;
     }
     .infoSectionBox p {
         font-size: 4vw;
-        text-align: center;
     }
     #infoBoxOne, #infoBoxTwo {
         width: 100%;
@@ -701,13 +699,11 @@ textarea {
     #contactSection article h4 {
         grid-area: 1 / 2 / 2 / 3;
         justify-self: center;
-        text-align: center;
     }
     #contactSection article p {
         grid-area: 2 / 2 / 3 / 3;
         width: 50%;
         justify-self: center;
-        text-align: center;
     }
     #contactOne p, #contactTwo p {
         font-size: 0.8em;
