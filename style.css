@@ -712,6 +712,20 @@ textarea {
         width: 60vw;
         justify-self: center;
     }
+    #contactForm {
+        padding: 10vh 5vw;
+    }
+    #contactUs h1 {
+        font-size: 8vw;
+    }
+    #ourStory h1 {
+        padding: 3vh;
+        font-size: 8vw;
+    }
+    #storyInfo {
+        grid-template-columns: 5% 90% 5%;
+        text-align: start;
+    }
     footer {
         grid-template-columns: 40% 25% 35%;
     }
@@ -732,4 +746,123 @@ textarea {
         transform: translateX(5vw);
         padding: 2.5vh 0;
     }
+    /*  Games section @media quiery  */
+    #gameList article {
+        display: none;
+    }
+    #gameList {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #gameList h2 {
+        justify-self: center;
+        align-self: center;
+        grid-column: 1 / 2;
+        padding: 3vh;
+    }
+    #gameHomeDesctription {
+        grid-template-columns: 10% 80% 10%;
+    }
+    #gameHomeDesctription h2 {
+        font-size: 4.5vw;
+        text-align: start;
+     }
+     #gameHomeDesctription p {
+         font-size: 4vw;
+         text-align: start;
+     }
+     .gameSections {
+        height: auto;
+     }
+#sociopiaGame {
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+ }
+ #sociopiaGame h1 {
+    font-size: 18vw;
+ }
+ #sociopiaGame h2 {
+    font-size: 6vw;
+ }
+ #sociopiaGame h4 {
+    font-size: 4vw;
+ }
+ #sociopiaGame h5 {
+     font-size: 3vw;
+ }
+ #sociopiaGame h6 {
+     display: none;
+ }
+ #sociopiaGridOne {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 0% 30% 10%;
+    text-align: center;
+ }
+ #sociopiaGridOne h4, #sociopiaGridOne h1, #sociopiaGridOne ul {
+    grid-column: 2 / 3;
+ }
+ #sociopiaGridOne ul {
+     text-align: left;
+     padding: 0 0vw;
+ }
+ #sociopiaGridOne li {
+     padding: 0vh 0;
+     font-size: 4vw;
+ }
+ #sociopiaGridTwo {
+    display: grid;
+    grid-template-columns: 10% 80% 30%;
+    grid-template-rows: 10% 40% 0%;
+ }
+ #sociopiaGridTwo h4 {
+    grid-column: 2 / 3;
+ }
+ #sociopiaGridTwo p {
+     padding-right: 0vw;
+     font-size: 4vw;
+     grid-column: 2 / 3;
+ }
+ #sociopiaGridTwo div {
+    grid-column: 2 / 3;
+ }
+#communityQuestGame {
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: auto;
+}
+#cqOne { 
+    grid-column: 2 / 3;
+    grid-row: auto;
+    grid-template-rows: 0px auto;
+    text-align: start;
+    transform: translateX(0);
+}
+#cqTwo {
+    grid-column: 2 / 3;
+    grid-row: auto;
+    align-self: start;
+    transform: translateY(0);
+}
+#cqThree {
+    grid-column: 2 / 3;
+    grid-row: auto;
+    align-self: start;
+    transform: translateY(0);
+}
+#communityQuestGame h1 { 
+    font-size: 15vw;
+}
+#communityQuestGame h2 {
+    font-size: 3.5vw;
+}
+#communityQuestGame p {
+    font-size: 3vw;
+    font-family: 'Gayathri', sans-serif;
+    color: white;
+    padding: 0 12vw;
+}
+#cqThree h2 {
+    transform: translateY(4vh);
+    font-size: 10vw;
+}
 }
