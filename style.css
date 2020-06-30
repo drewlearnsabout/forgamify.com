@@ -785,7 +785,7 @@ textarea {
     font-size: 6vw;
  }
  #sociopiaGame h4 {
-    font-size: 4vw;
+    font-size: 5.5vw;
  }
  #sociopiaGame h5 {
      font-size: 3vw;
@@ -864,5 +864,60 @@ textarea {
 #cqThree h2 {
     transform: translateY(4vh);
     font-size: 10vw;
+}
+#healthHuntGame {
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 30% 30%;
+    background-image: url("Images/HH\ Banner\ 2.svg");
+    row-gap: 8vh;
+}
+#hhGridOne {
+    grid-area: 1 / 2 / 2 / 3;
+    font-size: 3vw;
+    padding: 0 0vw;
+    display: grid;
+    row-gap: 0vh;
+}
+#hhGridOne ul {
+    font-size: 3vw;
+}
+#hhGridTwo {
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self: center;
+}
+#hhGridTwo h1 {
+    font-size: 13vw;
+}
+#makingTheRoundsGame {
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 20% 15% 20%;
+    row-gap: 5vh;
+}
+#makingTheRoundsGame h1 {
+    grid-area: 1 / 2 / 2 / 3;
+    font-size: 12vw;
+}
+#mtrGridOne {
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self: center;
+}
+#mtrGridOne ul, #mtrGridTwo p {
+    font-size: 3.5vw;
+    color: white;
+    border-radius: 1em;
+    background: none;
+}
+#mtrGridOne ul {
+    margin: 0 0vw;
+    padding: 0vh 0vw;
+    transform: translateX(0);
+    list-style-type: none;
+}
+#mtrGridTwo p {
+    margin: 0 0;
+    padding: 0vh 0vw;
+}
+#mtrGridTwo {
+    grid-area: 3 / 2 / 4 / 3;
 }
 }
