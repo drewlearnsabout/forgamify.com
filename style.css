@@ -853,10 +853,10 @@ textarea {
     font-size: 15vw;
 }
 #communityQuestGame h2 {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
 }
 #communityQuestGame p {
-    font-size: 3vw;
+    font-size: 4.5vw;
     font-family: 'Gayathri', sans-serif;
     color: white;
     padding: 0 12vw;
@@ -874,7 +874,7 @@ textarea {
 #hhGridOne {
     grid-area: 1 / 2 / 2 / 3;
     font-size: 3vw;
-    padding: 0 0vw;
+    padding: 2vh 0vw;
     display: grid;
     row-gap: 0vh;
 }
