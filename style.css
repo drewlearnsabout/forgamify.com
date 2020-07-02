@@ -434,9 +434,7 @@ footer a:hover {
     color: rgb(54, 238, 9);
 }
 #makingTheRoundsGame {
-    background-image: url("Images/MTR-BannerBackground.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(26, 26, 26);
     font-family: 'Michroma', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -447,7 +445,7 @@ footer a:hover {
     color: rgb(216, 216, 216);
     justify-self: center;
     font-size: 6vw;
-    text-shadow: 0 2px 7px rgb(63, 63, 63);
+    text-shadow: 0 2px 4px rgb(63, 63, 63);
 }
 #mtrGridOne {
     grid-area: 4 / 1 / 5 / 2;
@@ -699,11 +697,13 @@ textarea {
     #contactSection article h4 {
         grid-area: 1 / 2 / 2 / 3;
         justify-self: center;
+        text-align: center;
     }
     #contactSection article p {
         grid-area: 2 / 2 / 3 / 3;
         width: 50%;
         justify-self: center;
+        text-align: center;
     }
     #contactOne p, #contactTwo p {
         font-size: 0.8em;
@@ -890,7 +890,7 @@ textarea {
 }
 #makingTheRoundsGame {
     grid-template-columns: 5% 90% 5%;
-    grid-template-rows: 20% 15% 20%;
+    grid-template-rows: 26% 15% 20%;
     row-gap: 5vh;
 }
 #makingTheRoundsGame h1 {
