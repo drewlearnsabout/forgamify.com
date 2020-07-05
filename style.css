@@ -715,6 +715,9 @@ textarea {
     #contactForm {
         padding: 10vh 5vw;
     }
+    #contactUs {
+        padding: 3vh 0;
+    }
     #contactUs h1 {
         font-size: 8vw;
     }
@@ -759,6 +762,7 @@ textarea {
         align-self: center;
         grid-column: 1 / 2;
         padding: 3vh;
+        font-size: 8vw;
     }
     #gameHomeDesctription {
         grid-template-columns: 10% 80% 10%;
