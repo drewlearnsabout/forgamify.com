@@ -1,6 +1,6 @@
 <html>
   <body>
-    <img src="Images/Gamify Logo v2 3.svg">
+    <img src="Images/gamifyLogo1080p.png">
     <h1>Gamify Inc.</h1>
     <h2>Instructional Video Game Production Company</h2>
     <br>
