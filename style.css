@@ -116,7 +116,7 @@ nav, #alinks {
     width: 18.5%;
     height: 12%;
     text-align: start;
-    padding: 10vh 2vw 0vh 2vw;
+    padding: 8vh 2vw 0vh 2vw;
     color: white;
     opacity: 0;
     transition-duration: 0.3s;
@@ -647,12 +647,13 @@ textarea {
         width: 60vw;
     }
     .textBox {
-        font-size: 4.5vw;
+        font-size: 4.2vw;
         width: 65vw;
         height: 6%;
         text-align: start;
-        padding: 2vh 1vw 6vh 2vw;
+        padding: 2.5vh 1.3vw 6vh 2vw;
         transform: translate(0%, -15%);
+        border-radius: 5px;
     }
     .cardBottom {
         justify-content: center;
