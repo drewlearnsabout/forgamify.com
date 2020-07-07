@@ -680,7 +680,7 @@ textarea {
         width: 100%;
     }
     #contactSection {
-        grid-template-columns: 10% 80% 10%;
+        grid-template-columns: 20% 60% 20%;
         grid-template-rows: 5% 30% 30% 30% 5%;
         row-gap: 6vh;
         column-gap: 0;
@@ -702,9 +702,9 @@ textarea {
     }
     #contactSection article p {
         grid-area: 2 / 2 / 3 / 3;
-        width: 50%;
+        width: 75%;
         justify-self: center;
-        text-align: center;
+        text-align: start;
     }
     #contactOne p, #contactTwo p {
         font-size: 0.8em;
