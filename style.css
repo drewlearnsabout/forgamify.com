@@ -636,7 +636,7 @@ textarea {
     }
     .gameCards {
         width: 70vw;
-        height: 30vh;
+        height: 28.5vh;
     }
     #gameGrid {
         grid-template-rows: auto;
@@ -702,7 +702,7 @@ textarea {
     }
     #contactSection article p {
         grid-area: 2 / 2 / 3 / 3;
-        width: 75%;
+        width: 63%;
         justify-self: center;
         text-align: start;
     }
