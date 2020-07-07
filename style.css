@@ -218,11 +218,11 @@ nav, #alinks {
 footer {
     display: grid;
     background: #0d0d0d;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 20% 35% 45%;
 }
 footer article {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     column-gap: 3vw;
     grid-column: 3 / 4;
     align-content: center;
@@ -434,7 +434,7 @@ footer a:hover {
     color: rgb(54, 238, 9);
 }
 #makingTheRoundsGame {
-    background: rgb(26, 26, 26);
+    background: url("images/MTR-BannerBackground.svg");
     font-family: 'Michroma', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -731,12 +731,12 @@ textarea {
         text-align: start;
     }
     footer {
-        grid-template-columns: 40% 25% 35%;
+        grid-template-columns: 40% 15% 45%;
     }
     footer article {
         display: grid;
-        grid-template-columns: 1fr;
-        row-gap: 1vh;
+        grid-template-columns: auto auto;
+        row-gap: 2vh;
         grid-column: 3 / 4;
         align-content: center;
         justify-items: start;
@@ -897,6 +897,7 @@ textarea {
     grid-template-columns: 5% 90% 5%;
     grid-template-rows: 26% 15% 20%;
     row-gap: 5vh;
+    background: rgb(26, 26, 26);
 }
 #makingTheRoundsGame h1 {
     grid-area: 1 / 2 / 2 / 3;
