@@ -223,7 +223,7 @@ footer {
 }
 footer article {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(4, auto);
     column-gap: 3vw;
     grid-column: 3 / 4;
     align-content: center;
@@ -544,6 +544,18 @@ footer a:hover {
     display: grid;
     background: black;
     justify-content: center;
+    color: white;
+}
+#contactIntro {
+    padding-top: 5vh;
+    display: grid;
+    grid-template-columns: 32% 38% 32%;
+}
+#contactIntro h3, #contactIntro p {
+    grid-column: 2 / 3;
+}
+#contactIntro h3 {
+    font-size: 1.5em;
 }
 #contactForm {
     display: grid;
@@ -587,7 +599,51 @@ textarea {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-
+#toc {
+    font-family: 'Montserrat', sans-serif;
+}
+#tocArticle {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+#tocSection {
+    grid-column: 2 / 3;
+}
+#tocFooter {
+    background: rgb(102, 102, 102);
+    color: white;
+    padding: 2vh 0;
+    display: grid;
+    justify-content: center;
+}
+#termsTitle {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5.8vh 0;
+    font-size: 1.5vw;
+}
+#termsSection {
+    background: black;
+    padding: 15vh 0;
+    color: white;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    row-gap: 5vh;
+}
+.termsClass {
+    grid-column: 2 / 3;
+    font-family: 'Montserrat', sans-serif;
+}
+.termsClass a {
+    color: white;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.termsClass a:hover {
+    color: #39E991;
+    text-decoration: underline;
+}
 
 @keyframes fadeIn {
     0% {
@@ -736,7 +792,7 @@ textarea {
     }
     footer article {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         row-gap: 2vh;
         grid-column: 3 / 4;
         align-content: center;
