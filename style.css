@@ -91,7 +91,7 @@ nav, #alinks {
 .gameCards {
     width: 23vw;
     height: 32.5vh;
-    background: #232323;
+    background: #0d0d0d;
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.514);
     border-radius: 0.1em;
     font-family: 'Josefin Sans', sans-serif;
@@ -542,7 +542,7 @@ footer a:hover {
 }
 #myContact {
     display: grid;
-    background: black;
+    background: #0d0d0d;
     justify-content: center;
     color: white;
 }
@@ -598,6 +598,14 @@ textarea {
 #submitTwo {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 7px 7px rgb(51, 51, 51);
+}
+#submitTwo:hover {
+    text-decoration: underline;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 7px rgb(54, 238, 9);
 }
 #toc {
     font-family: 'Montserrat', sans-serif;
@@ -623,10 +631,10 @@ textarea {
     font-size: 1.5vw;
 }
 #termsSection {
-    background: black;
+    background: #0d0d0d;
     padding: 15vh 0;
     color: white;
-    border: 1px solid black;
+    border: 1px solid #0d0d0d;
     display: grid;
     grid-template-columns: 20% 60% 20%;
     row-gap: 5vh;
