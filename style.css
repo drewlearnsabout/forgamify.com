@@ -33,7 +33,7 @@ nav {
     grid-template-columns: repeat(2, auto);
     justify-content: center;
     column-gap: 3vw;
-    padding: 0 0 15px 0;
+    padding: 0 0 5px 0;
 }
 nav, #alinks {
     font-family: 'Share Tech', sans-serif;
@@ -54,15 +54,18 @@ nav, #alinks {
 }
 #homeButton {
     display: grid;
-    grid-template-rows: 5vh 1vh;
+    grid-template-columns: 0px 3.5vw;
     justify-items: center;
     align-self: stretch;
     transition-duration: 0.3s;
     text-decoration: none;
     color: white;
 }
+#homeButton p {
+    background-color: #0d0d0d;
+}
 #homeButton img {
-    width: 6vw;
+    width: 6.1vw;
     border: 1px solid #0d0d0d;
 }
 #homeButton:hover, #alinks a:hover {
@@ -682,8 +685,13 @@ textarea {
     nav, #alinks {
         font-size: 5vw;
     }
+    #homeButton {
+        grid-template-columns: 0px 12vw;
+        align-self: center;
+        justify-items: start;
+    }
     #homeButton img {
-        width: 15vw;
+        width: 12vw;
     }
     .ourGames {
         font-size: 6vw;
