@@ -68,6 +68,9 @@ nav, #alinks {
     width: 6.1vw;
     border: 1px solid #0d0d0d;
 }
+#homeButton, #alinks {
+    transform: translateX(10px);
+}
 #homeButton:hover, #alinks a:hover {
     transform: scale(1.1);
     text-decoration: underline;
@@ -684,6 +687,9 @@ textarea {
     }
     nav, #alinks {
         font-size: 5vw;
+    }
+    #homeButton, #alinks {
+        transform: translateX(0px);
     }
     #homeButton {
         grid-template-columns: 0px 12vw;
