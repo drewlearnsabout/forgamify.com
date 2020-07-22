@@ -33,7 +33,7 @@ nav {
     grid-template-columns: repeat(2, auto);
     justify-content: center;
     column-gap: 3vw;
-    padding: 0 0 5px 0;
+    padding: 0 0 15px 0;
 }
 nav, #alinks {
     font-family: 'Share Tech', sans-serif;
