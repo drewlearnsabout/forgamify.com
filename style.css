@@ -30,7 +30,7 @@ header video {
 nav {
     display: grid;
     height: 15vh;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
     justify-content: center;
     column-gap: 3vw;
     padding: 0 0 15px 0;
@@ -43,7 +43,7 @@ nav, #alinks {
 }
 #alinks {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     column-gap: 3vw;
 }
 #alinks a {
@@ -72,6 +72,28 @@ nav, #alinks {
     transform: translateX(10px);
 }
 #homeButton:hover, #alinks a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: #39E991;
+}
+#gameButton {
+    display: grid;
+    grid-template-columns: 0px 8vw;
+    justify-items: center;
+    align-self: stretch;
+    transition-duration: 0.3s;
+}
+#gameButton p {
+    background-color: #0d0d0d;
+}
+#gameButton img {
+    width: 6.1vw;
+}
+#gameButton {
+    transform: translateX(5px);
+}
+#gameButton:hover {
     transform: scale(1.1);
     text-decoration: underline;
     cursor: pointer;
@@ -688,15 +710,34 @@ textarea {
     nav, #alinks {
         font-size: 5vw;
     }
+    #alinks {
+        column-gap: 10vw;
+    }
     #homeButton, #alinks {
         transform: translateX(0px);
     }
     #homeButton {
-        grid-template-columns: 0px 12vw;
+        grid-template-columns: 0px 10vw;
         align-self: center;
         justify-items: start;
     }
     #homeButton img {
+        width: 12vw;
+        transform: translateX(-4vw);
+        z-index:0;
+    }
+    #homeButton p {
+        z-index: 1;
+    }
+    #gameButton {
+        transform: translateX(0px);
+    }
+    #gameButton {
+        grid-template-columns: 4vw 18vw;
+        align-self: center;
+        justify-items: start;
+    }
+    #gameButton img {
         width: 12vw;
     }
     .ourGames {
@@ -1008,6 +1049,11 @@ textarea {
 #contactSectionOne {
     display: grid;
     row-gap: 2vh;
+}
+#contactIntro {
+    padding-top: 5vh;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
 }
 .twoItems label {
     font-size: 4.5vw;
