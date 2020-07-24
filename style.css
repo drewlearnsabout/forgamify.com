@@ -83,6 +83,7 @@ nav, #alinks {
     justify-items: center;
     align-self: stretch;
     transition-duration: 0.3s;
+    transform: translateX(5px);
 }
 #gameButton p {
     background-color: #0d0d0d;
@@ -90,10 +91,47 @@ nav, #alinks {
 #gameButton img {
     width: 6.1vw;
 }
-#gameButton {
+#gameButton:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: #39E991;
+}
+#aboutButton {
+    display: grid;
+    grid-template-columns: 0px 4vw;
+    justify-items: center;
+    align-self: stretch;
+    transition-duration: 0.3s;
     transform: translateX(5px);
 }
-#gameButton:hover {
+#aboutButton p {
+    background-color: #0d0d0d;
+}
+#aboutButton img {
+    width: 6.1vw;
+}
+#aboutButton:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: #39E991;
+}
+#contactLinkButton {
+    display: grid;
+    grid-template-columns: 0px 5vw;
+    justify-items: center;
+    align-self: stretch;
+    transition-duration: 0.3s;
+    transform: translateX(5px);
+}
+#contactLinkButton p {
+    background-color: #0d0d0d;
+}
+#contactLinkButton img {
+    width: 6.1vw;
+}
+#contactLinkButton:hover {
     transform: scale(1.1);
     text-decoration: underline;
     cursor: pointer;
@@ -738,6 +776,28 @@ textarea {
         justify-items: start;
     }
     #gameButton img {
+        width: 12vw;
+    }
+    #aboutButton {
+        transform: translateX(0px);
+    }
+    #aboutButton {
+        grid-template-columns: 4vw 13vw;
+        align-self: center;
+        justify-items: start;
+    }
+    #aboutButton img {
+        width: 12vw;
+    }
+    #contactLinkButton {
+        transform: translateX(0px);
+    }
+    #contactLinkButton {
+        grid-template-columns: 4vw 13vw;
+        align-self: center;
+        justify-items: start;
+    }
+    #contactLinkButton img {
         width: 12vw;
     }
     .ourGames {
