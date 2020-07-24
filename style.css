@@ -1120,4 +1120,7 @@ textarea {
     font-weight: bold;
     justify-self: start;
 }
+#termsTitle h1 {
+    font-size: 8vw;
+}
 }
