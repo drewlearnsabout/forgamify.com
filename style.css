@@ -847,7 +847,7 @@ textarea {
         font-size: 8vw;
     }
     #storyInfo {
-        grid-template-columns: 5% 90% 5%;
+        grid-template-columns: 10% 80% 10%;
         text-align: start;
     }
     footer {
