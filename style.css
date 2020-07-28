@@ -549,7 +549,7 @@ footer a:hover {
 #keyCode, .submit {
     font-family: 'Josefin Sans', sans-serif;
     align-self: center;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px;
     border-radius: 10px;
     transition-duration: 0.1s;
 }
@@ -579,7 +579,7 @@ footer a:hover {
 }
 .submit, #submitTwo {
     color: white;
-    padding: 10px 30px;
+    padding: 10px 10px;
     text-decoration: none;
     border: 1px solid rgb(26, 26, 26);
     box-shadow: 0 7px 7px rgb(95, 95, 95);
