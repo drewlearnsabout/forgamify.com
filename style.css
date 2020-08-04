@@ -397,7 +397,7 @@ footer a:hover {
     font-size: 7vw;
  }
  #sociopiaGame h2 {
-    font-size: 3vw;
+    font-size: 2.5vw;
  }
  #sociopiaGame h4 {
     font-size: 2.5vw;
@@ -420,11 +420,15 @@ footer a:hover {
  }
  #sociopiaGridTwo {
     display: grid;
-    grid-template-rows: 15% 35% 30%;
+    grid-template-rows: 15% 30% 30%;
  }
  #sociopiaGridTwo p {
      padding-right: 15vw;
      font-size: 1.5vw;
+ }
+ #sociopiaGridTwo h6 {
+     font-size: 1.4vw;
+     width: 45%;
  }
  #communityQuestGame {
     background-image: url("Images/CQ-BannerBackground.svg");
